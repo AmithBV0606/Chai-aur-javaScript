@@ -2,6 +2,8 @@
 // console.log(typeof score)
 // console.log(typeof(score))
 
+// CONVERSION OF DIFFERENT TYPES INTO NUMBER TYPE 
+
 // Scenario 1 :
 let score1 = "33" // Type = String
 let valueInNumber1 = Number(score1)
