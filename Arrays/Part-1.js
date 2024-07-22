@@ -59,3 +59,17 @@ console.log("Before Splice : ", myArr)
 console.log(myArr.splice(1, 3)) // last index will be included 
 
 console.log("After Splice : ", myArr)
+
+
+// Methods used in Part-1,js
+
+// 1) length
+// 2) push()
+// 3) pop()
+// 4) unshift()
+// 5) shift()
+// 6) join()
+// 7) includes()
+// 8) indexof()
+// 9) slice()
+// 10) splice()
