@@ -51,3 +51,9 @@ const myCoding = [
 myCoding.forEach( (item) => {
     console.log(item.languageName)
 })
+
+// forEach doesn't returns anything, so you can't hold forEach in a variable.
+
+// const values = myCoding.forEach( (item) => { // This cannot be done
+//   console.log(item.languageName)
+// })
