@@ -25,7 +25,7 @@ myNums.forEach((num) => {
 })
 console.log(temp);
 
-// Since ForEach doesn't return anything, it cannot be stored in a variable, like 
+// Since ForEach doesn't return anything, it cannot be stored in a variable, like the below example. So we need to create an empty array and then we need to push the result to that empty array.
 
 // const values = myNums.forEach( (num) => { // This cannot be done
 //   console.log(num)

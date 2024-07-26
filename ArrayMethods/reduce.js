@@ -15,6 +15,16 @@ console.log(total);
 
 console.log("__________________________________________________________________________________");
 
+// Reduce method implementation using forEach.
+const number = [1,2,3,4,5];
+let total1 = 0;
+number.forEach((num) => {
+    total1 += num
+})
+console.log(total1);
+
+console.log("__________________________________________________________________________________");
+
 // Example 2 : 
 const shoppingCart = [
     {
