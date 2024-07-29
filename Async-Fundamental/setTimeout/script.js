@@ -1,8 +1,10 @@
 // Executing setTimeout actually calls out to code that is not part of JS. It's part of a Web API which the browser provides for us.
 
-// setTimeout and setInterval is not the part of core JavaScript.
+// "setTimeout()" and "setInterval()" is not the part of core JavaScript.
 
-// Syntax : setTimeout(function(), 2000);
+// The setTimeout() method calls a function after a number of milliseconds.
+
+// Syntax : setTimeout(function() {}, 2000);
 
 // Example 1 : 
 // setTimeout(() => {
@@ -25,6 +27,6 @@ const changeText = function(){
 const changeMe = setTimeout(changeText, 3000);
 
 document.querySelector('#stop').addEventListener('click', () => {
-    clearTimeout(changeMe, 2000);
+    clearTimeout(changeMe);
     console.log("Stopped");
 })
