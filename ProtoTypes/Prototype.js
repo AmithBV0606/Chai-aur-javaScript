@@ -20,7 +20,9 @@ let heroPower = {
 
     getSpiderPower: function(){
         console.log(`Spidy power is ${this.spiderman}`)
-    }
+    },
+
+    // __proto__:myHeros
 }
 
 Object.prototype.Amith = function(){
@@ -41,6 +43,6 @@ Array.prototype.heyAmith = function() {
 }
 
 myHeros.heyAmith();
-heroPower.heyAmith(); // Will throw an error
+// heroPower.heyAmith(); // Will throw an error
 
 // In order to connect the low level hierarchies, we use the concept of Prottypal Inheritance
