@@ -42,7 +42,7 @@ function User(username, loginCount, isLoggedIn){
 // const userTwo = User("Rao", 20, false);
 // console.log(userOne); 
 
-// Here, the values of userTwo overrides the values of userOne. So it is important to create new instance everytime using the "new" keyword
+// Here, in the above example, the values of userTwo overrides the values of userOne. So it is important to create new instance everytime using the "new" keyword
 
 const userOne = new User("Amith", 10, true);
 console.log(userOne);
