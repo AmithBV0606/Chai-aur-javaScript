@@ -1,2 +1,3 @@
-# Chai-aur-javaScript
-A repo focused on chai-aur-javascript playlist on youTube by Hitesh Choudhary sir.
+# JavaScript
+
+A repo focused on learning JavaScript from beginner to Advance.
